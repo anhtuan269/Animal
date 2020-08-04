@@ -1,4 +1,4 @@
 function Cat (name, age){
-    name: name;
-    age : age
+    this.name = name;
+    this.age = age
 }
