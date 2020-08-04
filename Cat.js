@@ -6,5 +6,5 @@ function Cat (name, age){
 Cat.prototype.eat = function(mouse){
     this.stomach.push(mouse);
 }
-module.exporst = Cat;
+module.exports = Cat;
 var tom = new Cat;
